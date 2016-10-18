@@ -15,8 +15,8 @@ At first you'll need to define certain variables:
     ```
     def referenceAppgitRepo = "spring-petclinic"
     ```
-    
-    **Note:** The name of the repository in the variable should be the same as the name you have specified in _[urls.txt](https://github.com/Accenture/adop-cartridge-java/blob/master/src/urls.txt)_ file. 
+
+    **Note:** The name of the repository in the variable should be the same as the name you have specified in _[urls.txt](https://github.com/Accenture/adop-cartridge-java/blob/master/src/urls.txt)_ file.
     For example, if the url is https://github.com/Accenture/spring-petclinic.git, then the _referenceAppgitRepo_ variable should be set to _spring_petclinic_.
 
 * The URL of your gerrit project:
@@ -92,4 +92,4 @@ buildAppJob.with {
 More details here:
 
 - [Jenkins Job DSL API - scm](https://jenkinsci.github.io/job-dsl-plugin/#method/javaposse.jobdsl.dsl.jobs.FreeStyleJob.scm)
-- [Creating a Jenkins job](https://accenture.github.io/adop-cartridges-cookbook/docs/recipes/creating-a-job/)
+- [Creating a Jenkins job](https://accenture.github.io/adop-cartridges-cookbook/docs/recipes/creating-a-freestyle-job/)

@@ -1,6 +1,6 @@
-# ADOP Documentation
+# ADOP Cartridge Cookbook Documentation
 
-This directory captures the ADOP documentation that is published to GitHub Pages. It will be periodically published alongside new releases by copying the contents of this folder into the gh-pages branch.
+This directory captures the ADOP Cartridge Cookbook documentation that is published to GitHub Pages. It will be periodically published by copying the contents of this folder into the gh-pages branch.
 
 For more information on GitHub Pages:
 
@@ -20,9 +20,6 @@ For more information on GitHub Pages:
 ## Publishing the Site
 
 1. Checkout the "gh-pages" branch
-1. Remove the contents with "git rm -r \*"
-1. Checkout the site directory from the master branch with "git checkout master -- site"
-1. Move the content out of the site directory with "git mv -f site/* site/.gitignore site/.travis.yml ."
-1. Check that the changes are just what is expected with "git status"
-1. Once satisfied, commit and push directly to origin 
+1. Reset the branch to master
+1. Check that the state is as intended, then push to origin
 1. Verify that GitHub Pages is reflecting the new changes (this can take a few minutes)
