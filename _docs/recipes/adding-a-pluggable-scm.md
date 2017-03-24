@@ -9,7 +9,7 @@ It is done by using a custom groovy package _pluggable.scm.*_  to implement a ch
 
 # Method
 
-Pluggable SCM allows to use below SCM providers
+Pluggable SCM allows to use below SCM providers but it can be extended
 
 * Gerrit
 * BitBucket
