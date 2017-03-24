@@ -5,6 +5,10 @@
 - title: Source code management
   docs:
   - recipes/git-clone
+  
+- title: Pluggable
+  docs:
+  - recipes/adding-a-pluggable-scm
 
 - title: Building an app
   docs:
